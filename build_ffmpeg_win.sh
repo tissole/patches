@@ -48,6 +48,8 @@ chmod a+x $FullExecPath/../gas-preprocessor/cpp
 --enable-libopenh264 \
 --enable-libopus \
 --enable-libvpx \
+--enable-decoder=mjpeg \
+--enable-decoder=png \
 --enable-decoder=aac \
 --enable-decoder=aac_fixed \
 --enable-decoder=aac_latm \
@@ -66,7 +68,10 @@ chmod a+x $FullExecPath/../gas-preprocessor/cpp
 --enable-decoder=atrac3p \
 --enable-decoder=av1 \
 --enable-decoder=av1_cuvid \
+--enable-decoder=dsd_lsbf \
+--enable-decoder=dsd_msbf \
 --enable-decoder=dsd_lsbf_planar \
+--enable-decoder=dsd_msbf_planar \
 --enable-decoder=eac3 \
 --enable-decoder=flac \
 --enable-decoder=gif \
@@ -90,6 +95,7 @@ chmod a+x $FullExecPath/../gas-preprocessor/cpp
 --enable-decoder=mpc7 \
 --enable-decoder=mpc8 \
 --enable-decoder=mpeg4 \
+--enable-decoder=mpeg2video \
 --enable-decoder=msmpeg4v2 \
 --enable-decoder=msmpeg4v3 \
 --enable-decoder=opus \
@@ -131,6 +137,8 @@ chmod a+x $FullExecPath/../gas-preprocessor/cpp
 --enable-decoder=usac \
 --enable-decoder=vorbis \
 --enable-decoder=vp8 \
+--enable-decoder=svq1 \
+--enable-decoder=svq3 \
 --enable-decoder=wavpack \
 --enable-decoder=wmalossless \
 --enable-decoder=wmapro \
@@ -141,6 +149,9 @@ chmod a+x $FullExecPath/../gas-preprocessor/cpp
 --enable-decoder=wmv2 \
 --enable-decoder=wmv3 \
 --enable-filter=atempo \
+--enable-filter=scale \
+--enable-encoder=mjpeg \
+--enable-encoder=png \
 --enable-encoder=aac \
 --enable-encoder=aptx \
 --enable-encoder=gsm \
@@ -157,6 +168,7 @@ chmod a+x $FullExecPath/../gas-preprocessor/cpp
 --enable-parser=hevc \
 --enable-parser=mpeg4video \
 --enable-parser=mpegaudio \
+--enable-parser=mpegvideo \
 --enable-parser=opus \
 --enable-parser=vorbis \
 --enable-demuxer=aac \
@@ -181,6 +193,7 @@ chmod a+x $FullExecPath/../gas-preprocessor/cpp
 --enable-demuxer=mpc8 \
 --enable-demuxer=mpegps \
 --enable-demuxer=mpegts \
+--enable-demuxer=mpegvideo \
 --enable-demuxer=ogg \
 --enable-demuxer=rm \
 --enable-demuxer=wav \
